@@ -37,7 +37,7 @@ defmodule Commanded.EventStore.Adapters.Extreme.Mixfile do
 
   defp deps do
     [
-      {:commanded, "~> 1.2"},
+      {:commanded, git: "https://github.com/xshadowlegendx/commanded.git"},
       {:extreme, "~> 0.13"},
 
       # Optional dependencies
